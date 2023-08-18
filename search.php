@@ -20,10 +20,10 @@ class TreasureShip{
     private $ts_cloud_url = "https://raw.githubusercontent.com/malimaliao/Synology-DLM-for-TPB_TreasureShip/main/ts.css";  // cloud
     #private $ts_cloud_url = 'https://cdn.staticaly.com/gh/malimaliao/Synology-DLM-for-TPB_TreasureShip/main/ts.css';
 
-    private $tpb_api = '';
-    private $tpb_host='';
-    private $tracker_url = '';
-    private $trackers_list = '';
+    private $tpb_api = 'https://apibay.org/q.php?q=';
+    private $tpb_host='https://thepiratebay.org';
+    private $tracker_url = 'https://ngosang.github.io/trackerslist/trackers_best.txt';
+    private $trackers_list = 'https://ngosang.github.io/trackerslist/trackers_best.txt';
 
     public function __construct(){
     }
